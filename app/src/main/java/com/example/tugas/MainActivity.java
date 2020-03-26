@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
     EditText ETnamaDpn, ETnamaBlkng, ETtmptL, ETdate, ETalmt, ETtlp, ETemail, ETpass;
     Button Btndaftar, Btnkembali, BtnOke, BtnKeluar;
 
-    String Bc, jk, agama, namaDpn, namaBlkng, tempat, tanggal, alamat, telpon, email, password, pass;
+    String Bc, jk, agama, namaDpn, namaBlkng,
+            tempat, tanggal, alamat, telpon, email, password, pass;
     TextView TvnamaDpn, TvnamaBlkng, TvTTL, Tvalamat, Tvjk, Tvagama, Tvtlp, Tvemail;
 
     int tahun, bulan, hari;
@@ -104,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    //----------------------------------------------Validasi--------------------------------------------
+    //----------------------------------------------Validasi----------------------------------------
     public void isValidEditText() {
         namaDpn = ETnamaDpn.getText().toString();
         namaBlkng = ETnamaBlkng.getText().toString();
@@ -115,7 +116,8 @@ public class MainActivity extends AppCompatActivity {
         email = ETemail.getText().toString();
         password = ETpass.getText().toString();
 
-        if (namaDpn.isEmpty() && namaBlkng.isEmpty() && tempat.isEmpty() && tanggal.isEmpty() && alamat.isEmpty() && telpon.isEmpty() && email.isEmpty() && password.isEmpty()) {
+        if (namaDpn.isEmpty() && namaBlkng.isEmpty() && tempat.isEmpty() && tanggal.isEmpty() &&
+                alamat.isEmpty() && telpon.isEmpty() && email.isEmpty() && password.isEmpty()) {
             ETnamaDpn.setError("Nama Depan Harus Diisi");
             ETnamaBlkng.setError("Nama Belakang Harus Diisi");
             ETtmptL.setError("Tempat Lahir Harus Diisi");
@@ -155,9 +157,11 @@ public class MainActivity extends AppCompatActivity {
     public void isValidPassword() {
         password = ETpass.getText().toString().trim();
         if (TextUtils.isEmpty(password) || password.length() < 8) {
-            ETpass.setError("Panjang password minimal adalah 8 karakter dengan angka, huruf besar, huruf kecil, dan spesial karakter (seperti: @, &amp;, #, ?)");
+            ETpass.setError("Panjang password minimal adalah 8 karakter dengan angka, huruf " +
+                    "besar, huruf kecil, dan spesial karakter (seperti: @, &amp;, #, ?)");
         } else if (!pattern(password)) {
-            ETpass.setError("Panjang password minimal adalah 8 karakter dengan angka, huruf besar, huruf kecil, dan spesial karakter (seperti: @, &amp;, #, ?)");
+            ETpass.setError("Panjang password minimal adalah 8 karakter dengan angka, huruf " +
+                    "besar, huruf kecil, dan spesial karakter (seperti: @, &amp;, #, ?)");
         } else {
             if (ETpass.getText().toString().isEmpty()) {
                 ETpass.setError("Password harus sama");
@@ -167,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //-----------------------------------------View Hasil-------------------------------------------
     public void HasilPendaftaran() {
         final AlertDialog alertDialogBuilder = new AlertDialog.Builder(this).create();
         View dialogView = getLayoutInflater().inflate(R.layout.hasil_pendaftaran, null);
@@ -204,7 +209,8 @@ public class MainActivity extends AppCompatActivity {
 
         BtnOke.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Pendaftaran Selesai", 1).show();
+                Toast.makeText(getApplicationContext(), "Pendaftaran Selesai",
+                        Toast.LENGTH_LONG).show();
                 alertDialogBuilder.dismiss();
             }
         });
@@ -268,7 +274,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             };
 
-    //------------------------------------------Radio Button--------------------------------------------
+    //--------------------------------------Radio Button--------------------------------------------
     public void OnClickRB(View v) {
         boolean checked = ((RadioButton) v).isChecked();
 

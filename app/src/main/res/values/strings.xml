@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tugas</string>
+    <string name="txt101">PENDAFTARAN</string>
+    <string name="txt102">Nama Depan</string>
+    <string name="txt103">Nama Belakang</string>
+    <string name="txt104">Tempat Lahir</string>
+    <string name="txt105">Tanggal Lahir</string>
+    <string name="txt106">Alamat</string>
+    <string name="txt107">Jenis Kelamin</string>
+    <string name="txt108">Laki-Laki</string>
+    <string name="txt109">Perempuan</string>
+    <string name="txt110">Agama</string>
+    <string name="txt111">Islam</string>
+    <string name="txt112">Kristen</string>
+    <string name="txt113">Katolik</string>
+    <string name="txt114">Hindu</string>
+    <string name="txt115">Buddha</string>
+    <string name="txt116">Konghucu</string>
+    <string name="txt117">Aliran Kepercayaan</string>
+    <string name="txt118">Telepon</string>
+    <string name="txt119">Email</string>
+    <string name="txt120">Password</string>
+    <string name="txt121">Masukkan Password Kembali</string>
+    <string name="txt122">KEMBALI</string>
+    <string name="txt123">DAFTAR</string>
+
+    <string name="t101">Pendaftaran Berhasil</string>
+    <string name="t102">Nama Depan :</string>
+    <string name="t103">Nama Belakang :</string>
+    <string name="t104">Tempat Tanggal Lahir :</string>
+    <string name="t105">Alamat :</string>
+    <string name="t106">Jenis Kelamin :</string>
+    <string name="t107">Agama :</string>
+    <string name="t108">No Telepon :</string>
+    <string name="t109">Email :</string>
+    <string name="b111">Keluar aplikasi</string>
+    <string name="b112">Oke</string>
+</resources>
