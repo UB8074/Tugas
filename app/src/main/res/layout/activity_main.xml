@@ -139,7 +139,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt108" />
 
@@ -148,7 +148,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt109" />
 
@@ -171,7 +171,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt111" />
 
@@ -180,7 +180,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt112" />
 
@@ -197,7 +197,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt113" />
 
@@ -206,7 +206,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt114" />
             </RadioGroup>
@@ -222,7 +222,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt115" />
 
@@ -231,7 +231,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt116" />
             </RadioGroup>
@@ -247,7 +247,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:onClick="OnClickRB"
+                    android:onClick="ChooseRB"
                     android:paddingTop="10dp"
                     android:text="@string/txt117" />
             </RadioGroup>
